@@ -2,47 +2,9 @@
 description: Apply this instruction when you need information about the project, its styles, architecture, and technology.
 alwaysApply: false
 ---
-\<universal_prompt\>
-Your task is to act as a senior software developer and create a comprehensive technical guide for a software project. This guide is intended for new developers and AI assistants to quickly understand the project's structure, architecture, and conventions. The output should be a single Markdown file named `PROJECT.md`.
 
-Based on the provided project context:
+<universal_prompt\>
 
-```
-{{project_context}}
-```
-
-The guide must be well-structured and include the following sections, using clear Markdown headings (`#`, `##`, `###`):
-
-**1. Project Overview**
-
-- A concise, high-level summary of the project's purpose, main features, and the problem it solves.
-
-**2. Development Commands**
-
-- A categorized list of essential command-line scripts required to set up, run, and maintain the project.
-- Include categories such as `Database Management`, `Development Workflow`, and `Setup Requirements`.
-- List each command with a brief explanation of what it does.
-
-**3. Architecture Overview**
-
-- A detailed breakdown of the project's technical architecture. This section must include the following subsections:
-  - **Tech Stack:** A bulleted list of the primary frameworks, libraries, languages, and platforms used.
-  - **Project Structure:** An explanation of the key directories and their responsibilities within the codebase.
-  - **Database Schema:** An overview of the main database tables/models, their relationships, and any planned additions.
-  - **Key Patterns:** A description of important architectural patterns used in the project (e.g., data fetching, authentication, state management, etc.).
-
-**4. Development Guidelines**
-
-- A set of clear, prescriptive rules and best practices for contributors to follow.
-- Cover topics such as package management, component creation and usage, form handling, data operations, and specific styling conventions.
-
-**Formatting and Tone:**
-
-- The entire output must be in Markdown format.
-- Maintain a technical, informative, and direct tone.
-- Use bullet points, nested lists, and code snippets for clarity and readability.
-  \</universal_prompt\>
-\<universal_prompt\>
 Your task is to act as a senior software developer and create a comprehensive technical guide for a software project. This guide is intended for new developers and AI assistants to quickly understand the project's structure, architecture, and conventions. The output should be a single Markdown file named `AI_GUIDE.md`.
 
 Based on the provided project context:
