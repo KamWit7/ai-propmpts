@@ -35,4 +35,4 @@ Used to create comprehensive documentation for the plan, review, and implementat
 ```
 
 
-prompts and idea base on this [REPO](https://github.com/VoloBuilds/prompts/blob/main/commands/README.md){:target="_blank"}
+prompts and idea base on this [REPO](https://github.com/VoloBuilds/prompts/blob/main/commands/README.md)
