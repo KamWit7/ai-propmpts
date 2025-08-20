@@ -1,4 +1,4 @@
-# ai-rules
+# ai-propmpts
 
 This repository stories instructions for AI prompts
 
